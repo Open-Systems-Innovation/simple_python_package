@@ -4,6 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "simple_python_package"
+version = "0.1.0"
 
 [tool.setuptools]
 # Optional: metadata for the package
