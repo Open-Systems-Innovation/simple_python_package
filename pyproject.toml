@@ -5,15 +5,3 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "simple_python_package"
 version = "0.1.0"
-
-[tool.setuptools]
-# Optional: metadata for the package
-name = "simple_python_package"
-version = "0.1.0"
-description = "A simple Python package that prints 'hello python package world'"
-authors = ["lj"]
-long_description = "This is a very simple Python package to demonstrate how to structure pyproject.toml."
-long_description_content_type = "text/markdown"
-
-[tool.setuptools.packages.find]
-where = ["python_core"]
