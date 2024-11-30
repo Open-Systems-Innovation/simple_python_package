@@ -1,6 +1,9 @@
-[build-system]
+[build-system] # this section should always be present
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "simple_python_package"
 
 [tool.setuptools]
 # Optional: metadata for the package
